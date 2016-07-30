@@ -6,7 +6,8 @@ var express=require('express'),mongoose=require('mongoose'),bodyParser=require('
 
 //open a connection
 var db=mongoose.connect('mongodb://localhost/bookAPI');
-
+ 
+ 
 var Book=require('./models/bookModel');
 
 
